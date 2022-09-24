@@ -8,7 +8,12 @@ $imgResize = new ImgResize();
 ```
 And now you can start using 'resize' function to resize your images:
 ```
-$imgResize->resize(string $imgPath, int $widthTo, int $heightTo, string $nameTo = "", string $pathTo = "", bool $crop = false);
+$imgResize->resize(string $imgPath,
+                   int $widthTo,
+                   int $heightTo,
+                   string $nameTo = "",
+                   string $pathTo = "",
+                   bool $crop = false);
 ```
 Parameters of the function:
 imgPath:
