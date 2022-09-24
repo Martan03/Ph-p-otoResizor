@@ -15,20 +15,26 @@ $imgResize->resize(string $imgPath,
                    string $pathTo = "",
                    bool $crop = false);
 ```
-Parameters of the function:
-imgPath:
+### **Parameters of the function:**
+
+**imgPath**:
 - path to your image you want to resize
-widthTo:
+
+**widthTo**:
 - width you want your image to be resized to
-heightTo:
+
+**heightTo**:
 - height you want your image to be resized to
-nameTo: 
+
+**nameTo**: 
 - name you want your image to be named to
 - if not given, image will be named "min-" + original image name
-pathTo:
+
+**pathTo**:
 - path you want your image to be saved to
 - if not given, image will be placed in root directory
-crop:
+
+**crop**:
 - set "true" if you want to crop your image, default "false"
 
 ### Example of usage:
@@ -36,4 +42,4 @@ crop:
 $imgResize->resize("myImage.png", 200, 200, "resizedImage", "resizedImages");
 ```
 
-**Supported file type:** jpeg, jpg, png
+**Supported file types:** jpeg, jpg, png
