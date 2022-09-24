@@ -2,12 +2,12 @@
 
 ## Usage:
 First you ned to require ImgResize.php and create new ImgResize variable:
-```
+```php
 require("ImgResize.php");
 $imgResize = new ImgResize();
 ```
 And now you can start using 'resize' function to resize your images:
-```
+```php
 $imgResize->resize(string $imgPath,
                    int $widthTo,
                    int $heightTo,
@@ -32,7 +32,7 @@ crop:
 - set "true" if you want to crop your image, default "false"
 
 ### Example of usage:
-```
+```php
 $imgResize->resize("myImage.png", 200, 200, "resizedImage", "resizedImages");
 ```
 
